@@ -9,7 +9,7 @@ import { FaRegStar } from "react-icons/fa";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useDispatch } from "react-redux";
-import { addToCart } from "../Components/slice/productSlice";
+import { addToCart } from "../Components/Slice/productSlice";
 
 const ProductDetails = () => {
   let productId = useParams();
